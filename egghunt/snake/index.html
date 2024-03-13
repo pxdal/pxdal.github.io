@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Snake</title>
+
+	<style>
+		body {
+			background: black;
+		}
+		
+		#main-content {
+			text-align: center;
+		}
+
+		h1, p {
+			color: lime;
+		}
+
+		canvas {
+			border-style: solid;
+			border-color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main-content">
+		<h1>Time for another of my famous games...beat my snake high score and reveal a clue!</h1>
+		<p style="margin: 0px">Press an arrow key to begin</p>
+		<p style="margin-top: 0px">Press SPACE to reset</p>
+
+		<p id="your-score" style="margin: 0px">Your High Score:</p>
+		<p id="my-score" style="margin-top: 0px">My High Score:</p>
+
+		<p id="current-score" style="margin-bottom: 0px">Score:</p>
+		
+		<canvas id="main-canvas"></canvas>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.9.1/lib/p5.js"></script>
+	<script src="snake.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
