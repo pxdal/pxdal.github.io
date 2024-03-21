@@ -95,7 +95,7 @@ decodeInput.addEventListener("input", e => {
 	let providedKey = decodeInput.value.slice(0, keyLength);
 	
 	for(let i = providedKey.length; i < keyLength; i++){
-		providedKey += "a";
+		providedKey += "p";
 	}
 	
 	decodedMessage.textContent = decodeMessage(encodedMessage, providedKey);
