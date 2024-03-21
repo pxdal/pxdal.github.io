@@ -121,7 +121,7 @@ function keyPressed(){
 
 	const isArrow = (keyCode == UP_ARROW || keyCode == RIGHT_ARROW || keyCode == DOWN_ARROW || keyCode == LEFT_ARROW);
 	
-	if(!isArrow){
+	if(!isArrow && keyCode == 32){
 		// reset game
 		gameIsStarted = false;
 		gameInitialized = true;
