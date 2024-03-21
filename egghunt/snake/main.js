@@ -5,12 +5,12 @@ const userScoreElement = document.getElementById("your-score");
 const currentScoreElement = document.getElementById("current-score");
 
 // GAME GLOBALS //
-const myHighScore = 75;
+const myHighScore = 69;
 //const myHighScore = 0;
 let userHighScore = 0;
 let currentScore = 0;
 
-const ticksPerSecond = 6;
+const ticksPerSecond = 8;
 
 const canvasWidth = 600;
 const canvasHeight = 600;
