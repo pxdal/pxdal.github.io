@@ -27,11 +27,15 @@
 </head>
 
 <body>
-	<div id="decode-key-container">
-		<input type="text" id="decode-key" placeholder="Key (spaces allowed)...">
-
-		<h1 id="decoded-message"></h1>
+	<div id="main" style="display: none">
+		<div id="decode-key-container">
+			<input type="text" id="decode-key" placeholder="Key (spaces allowed)...">
+	
+			<h1 id="decoded-message"></h1>
+		</div>
 	</div>
+
+	<p id="error-message"></p>
 
 	<script src="encoded.js"></script>
 	<script src="main.js"></script>
